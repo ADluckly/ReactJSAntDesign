@@ -8,12 +8,12 @@ const { Option } = Select;
 
 const App = () => (
   <>
-   {/* <section style={{ textAlign: 'center' }}>
+   <section style={{ textAlign: 'center' }}>
       <h1 style={{ textAlign: 'center' }}>Ant Design</h1>
       <img style={{ width: '40px', height: '40px' }} src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" />
-    </section> */}
+    </section>
     <Form style={{ marginTop: 30 }}>
-       {/* <Form.Item
+        <Form.Item
         label="数字输入框"
         labelCol={{ span: 8 }}
         wrapperCol={{ span: 8 }}
@@ -68,12 +68,12 @@ const App = () => (
         <Button style={{ marginLeft: 8 }}>
           取消
         </Button>
-      </Form.Item> */}
-      {/* <Form.Item wrapperCol={{ span: 8, offset: 8 }}>
+      </Form.Item>
+      <Form.Item wrapperCol={{ span: 8, offset: 8 }}>
         <Panel></Panel>
-      </Form.Item> */}
+      </Form.Item>
     </Form>
-    {/* <Flex></Flex> */}
+    <Flex></Flex>
     <LayoutPanel></LayoutPanel>
   </>
 );
