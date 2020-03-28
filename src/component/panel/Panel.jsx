@@ -3,6 +3,7 @@ import { Button } from 'antd';
 
 class Panel extends React.Component {
     state = {
+
         loading: false,
         iconLoading: false,
     };

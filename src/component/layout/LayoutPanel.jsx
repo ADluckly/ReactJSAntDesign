@@ -23,7 +23,7 @@ class LayoutPanel extends React.Component {
                     </Menu>
                 </Header>
                 <Layout>
-                    <Sider 
+                    <Sider
                         breakpoint="lg"
                         collapsedWidth="0"
                         onBreakpoint={broken => {
