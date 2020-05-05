@@ -1,19 +1,19 @@
 import React from 'react';
 import { Form, Select, InputNumber, DatePicker, Switch, Slider, Button } from 'antd';
 import './App.css';
-import Panel from './component/panel/Panel'
-import Flex from './component/flex/Flex'
-import LayoutPanel from './component/layout/LayoutPanel'
+// import Panel from './component/panel/Panel'
+// import Flex from './component/flex/Flex'
+// import LayoutPanel from './component/layout/LayoutPanel'
 const { Option } = Select;
 
 const App = () => (
   <>
-   {/* <section style={{ textAlign: 'center' }}>
+   <section style={{ textAlign: 'center' }}>
       <h1 style={{ textAlign: 'center' }}>Ant Design</h1>
-      <img style={{ width: '40px', height: '40px' }} src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" />
-    </section> */}
+      <img alt="antd icon" style={{ width: '40px', height: '40px' }} src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" />
+    </section>
     <Form style={{ marginTop: 30 }}>
-       {/* <Form.Item
+       <Form.Item
         label="数字输入框"
         labelCol={{ span: 8 }}
         wrapperCol={{ span: 8 }}
@@ -59,22 +59,22 @@ const App = () => (
 
       </Form.Item>
       <Form.Item wrapperCol={{ span: 8, offset: 8 }}>
-        <Button type="primary" htmlType="submit" className='comfirm-button'>
+        <Button type="primary" htmlType="submit">
           确定
         </Button>
-        <Button type="danger" shape="round" htmlType="submit">
+        {/* <Button type="danger" shape="round" htmlType="submit">
           警告
-        </Button>
+        </Button> */}
         <Button style={{ marginLeft: 8 }}>
           取消
         </Button>
-      </Form.Item> */}
+      </Form.Item>
       {/* <Form.Item wrapperCol={{ span: 8, offset: 8 }}>
         <Panel></Panel>
       </Form.Item> */}
     </Form>
     {/* <Flex></Flex> */}
-    <LayoutPanel></LayoutPanel>
+    {/* <LayoutPanel></LayoutPanel> */}
   </>
 );
 
