@@ -1,0 +1,24 @@
+.layout{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  vertical-align: middle;
+}
+
+.row{
+  margin-bottom: 20px;
+}
+
+.img{
+  height: 40px;
+  width: 40px;
+}
+
+.logo{
+  margin-left: 50%;
+  margin-bottom: 5%;
+}
+
+.bottom{
+  margin-left: 50%;
+}
